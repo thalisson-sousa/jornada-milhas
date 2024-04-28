@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 232px;
+
+  background-color: black;
+  color: white;
+
+  .informacoes {
+    img {
+      height: 40px;
+      margin-bottom: 1em;
+    }
+  }
+
+  .social {
+
+    div {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

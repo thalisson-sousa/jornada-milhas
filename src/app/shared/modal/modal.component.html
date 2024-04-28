@@ -1,0 +1,99 @@
+<section class="modal">
+  <div class="container">
+    <div class="modal_container">
+      <div>
+        <h1 mat-dialog-title>Viajante</h1>
+        <mat-dialog-content>
+          <div class="selecao-idade">
+            <ul>
+              <li><strong>Adultos</strong></li>
+              <li>(Acima de 12 anos)</li>
+              <li>
+                <button class="decremento" mat-mini-fab>
+                  <img
+                    src="assets/icones/do_not_disturb_on.png"
+                    alt="Operador de subtração"
+                  />
+                </button>
+                <span>1</span>
+                <button class="incremento" mat-mini-fab>
+                  <img
+                    src="assets/icones/add_circle.png"
+                    alt="Operador de adição"
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </mat-dialog-content>
+      </div>
+    </div>
+
+    <div class="modal_container">
+      <h1 mat-dialog-title>Crianças</h1>
+      <mat-dialog-content>
+        <div class="selecao-idade">
+          <ul>
+            <li><strong>Adultos</strong></li>
+            <li>(Entre 2 e 11 anos)</li>
+            <li>
+              <button class="decremento" mat-mini-fab>
+                <img
+                  src="assets/icones/do_not_disturb_on.png"
+                  alt="Operador de subtração"
+                />
+              </button>
+              <span>0</span>
+              <button class="incremento" mat-mini-fab>
+                <img
+                  src="assets/icones/add_circle.png"
+                  alt="Operador de adição"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </mat-dialog-content>
+    </div>
+
+    <div class="modal_container">
+      <h1 mat-dialog-title>Bebês</h1>
+      <mat-dialog-content>
+        <div class="selecao-idade">
+          <ul>
+            <li><strong>Adultos</strong></li>
+            <li>(Até 2 anos)</li>
+            <li>
+              <button class="decremento" mat-mini-fab>
+                <img
+                  src="assets/icones/do_not_disturb_on.png"
+                  alt="Operador de subtração"
+                />
+              </button>
+              <span>1</span>
+              <button class="incremento" mat-mini-fab>
+                <img
+                  src="assets/icones/add_circle.png"
+                  alt="Operador de adição"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </mat-dialog-content>
+    </div>
+  </div>
+  <div>
+    <h2>Categoria</h2>
+    <mat-chip-listbox aria-label="Seleção de passagens">
+      <mat-chip-option selected>Econômica</mat-chip-option>
+      <mat-chip-option disabled="">Executiva</mat-chip-option>
+    </mat-chip-listbox>
+  </div>
+  <div>
+    <mat-dialog-actions class="botoes">
+      <button mat-flat-button mat-dialog-close color="secondary" >Close</button>
+      <button mat-flat-button color="primary">Aplicar</button>
+    </mat-dialog-actions>
+  </div>
+</section>
